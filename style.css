@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  background-color: #ffffff;
+  color: black;
+}
+#hr {
+  height: 50px;
+  background-color: #282828;
+}
+.content{
+    height: 940px;
+    display: flex;
+}
+#Donation{
+    background-image:url(form-img.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 385px;
+    height: 940px;
+      
+}
+#Donation h1{
+    text-align: center;
+    margin-top: 440px;
+    font-weight: bolder;    
+    margin-bottom: 15px;
+    color: white;
+}
+#Donation p{
+    text-align: center;
+    font-weight: bolder;
+}
+form{
+  display: flex;
+  flex-direction: row;
+}
+.part{
+  width: 475px;
+  padding: 60px;
+}
+label{
+  color: black;
+}

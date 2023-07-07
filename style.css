@@ -41,9 +41,23 @@ form{
 }
 .part{
   width: 475px;
-  padding: 60px;
+  padding: 70px;
 }
 label{
-  color: black;
+  font-size: 15px;
+  font-weight: bolder;
 }
-/* hello checking */
+input, select{
+  margin-top: 12px;
+  margin-bottom: 28px;
+  padding: 15px;
+  width: 382px;
+  border:1px solid rgb(197, 192, 192);
+  border-radius: 5px;
+}
+input:focus{
+  border: 1px solid rgb(32, 211, 32);
+  outline: none;
+}
+
+
